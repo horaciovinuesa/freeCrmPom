@@ -1,0 +1,166 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "# The objective of this project is to apply the different cucumber features"
+      },
+      {
+        "line": 3,
+        "value": "# Cucumber options"
+      },
+      {
+        "line": 4,
+        "value": "# Data driven testing"
+      },
+      {
+        "line": 5,
+        "value": "# Data tables"
+      },
+      {
+        "line": 6,
+        "value": "# Data driven with maps"
+      },
+      {
+        "line": 7,
+        "value": "# Tags"
+      },
+      {
+        "line": 8,
+        "value": "# Hooks"
+      },
+      {
+        "line": 9,
+        "value": "# Apply POM to the project"
+      },
+      {
+        "line": 11,
+        "value": "#The test suite is executed using smoke and sanity tags, the list of features is the following"
+      },
+      {
+        "line": 12,
+        "value": "#Each feature (except login) should contain as much scenarios as possible"
+      },
+      {
+        "line": 13,
+        "value": "# Login"
+      },
+      {
+        "line": 14,
+        "value": "# Logout"
+      },
+      {
+        "line": 15,
+        "value": "# Create contact"
+      },
+      {
+        "line": 16,
+        "value": "# Create deal"
+      },
+      {
+        "line": 17,
+        "value": "# Create task"
+      },
+      {
+        "line": 18,
+        "value": "# Create case"
+      },
+      {
+        "line": 19,
+        "value": "# Verify left panel links"
+      },
+      {
+        "line": 20,
+        "value": "# Search for deals, contact, case, task, email, docs, forms, report"
+      }
+    ],
+    "line": 23,
+    "elements": [
+      {
+        "line": 27,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "login;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11366033111,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user is on crm login page",
+            "match": {
+              "location": "LoginSteps.user_is_on_crm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 222207659,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user fills in the login credentials",
+            "match": {
+              "location": "LoginSteps.user_fills_in_the_login_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5205120643,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks on login",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6097958,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "The homepage is displayed",
+            "match": {
+              "location": "LoginSteps.the_homepage_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 838106995,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User is logged in",
+            "match": {
+              "location": "LoginSteps.user_is_logged_in()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "I want to be able to loging to freecrm page",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
